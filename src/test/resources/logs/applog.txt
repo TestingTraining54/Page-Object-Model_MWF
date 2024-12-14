@@ -1,35 +1,6 @@
-INFO    2024-12-11 10:53:27,203 [main] base.BaseTest  - Test Execution started
-INFO    2024-12-11 10:53:27,205 [main] base.BaseTest  - Config file loaded
-INFO    2024-12-11 10:53:27,206 [main] base.BaseTest  - OR properties file loaded
-INFO    2024-12-11 10:53:29,866 [main] base.BaseTest  - Chrome browser is launched
-INFO    2024-12-11 10:53:30,049 [main] base.BaseTest  - Browser window maximized
-INFO    2024-12-11 10:53:31,097 [main] base.BaseTest  - Navigated to an url: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
-INFO    2024-12-11 10:53:31,751 [main] base.BaseTest  - Clicked on field with a keyword as : bankMgrLoginBtn_XPATH
-INFO    2024-12-11 10:53:32,742 [main] base.BaseTest  - Clicked on field with a keyword as : addCustmr_XPATH
-INFO    2024-12-11 10:53:33,293 [main] base.BaseTest  - Typed on field with a keyword as : firstNameTxtbox_XPATH with  a value as : rahul
-INFO    2024-12-11 10:53:33,552 [main] base.BaseTest  - Typed on field with a keyword as : lastNameTxtbox_XPATH with  a value as : arr
-INFO    2024-12-11 10:53:33,937 [main] base.BaseTest  - Typed on field with a keyword as : postalCode_XPATH with  a value as : 345678.0
-INFO    2024-12-11 10:53:34,113 [main] base.BaseTest  - Clicked on field with a keyword as : addCutomer_XPATH
-INFO    2024-12-11 10:53:34,546 [main] base.BaseTest  - Clicked on field with a keyword as : addCustmr_XPATH
-INFO    2024-12-11 10:53:34,914 [main] base.BaseTest  - Typed on field with a keyword as : firstNameTxtbox_XPATH with  a value as : rahul1
-INFO    2024-12-11 10:53:35,164 [main] base.BaseTest  - Typed on field with a keyword as : lastNameTxtbox_XPATH with  a value as : arr1
-INFO    2024-12-11 10:53:35,418 [main] base.BaseTest  - Typed on field with a keyword as : postalCode_XPATH with  a value as : 23343.0
-INFO    2024-12-11 10:53:35,548 [main] base.BaseTest  - Clicked on field with a keyword as : addCutomer_XPATH
-INFO    2024-12-11 10:53:35,758 [main] base.BaseTest  - Clicked on field with a keyword as : addCustmr_XPATH
-INFO    2024-12-11 10:53:36,044 [main] base.BaseTest  - Typed on field with a keyword as : firstNameTxtbox_XPATH with  a value as : selenium
-INFO    2024-12-11 10:53:36,269 [main] base.BaseTest  - Typed on field with a keyword as : lastNameTxtbox_XPATH with  a value as : java
-INFO    2024-12-11 10:53:36,511 [main] base.BaseTest  - Typed on field with a keyword as : postalCode_XPATH with  a value as : 586538.0
-INFO    2024-12-11 10:53:36,650 [main] base.BaseTest  - Clicked on field with a keyword as : addCutomer_XPATH
-INFO    2024-12-11 10:53:36,936 [main] base.BaseTest  - Clicked on field with a keyword as : openAccountBtn_XPATH
-INFO    2024-12-11 10:53:37,374 [main] base.BaseTest  - Selected the dropdown with keyword as: customer_ID with value as:rahul arr
-INFO    2024-12-11 10:53:37,554 [main] base.BaseTest  - Selected the dropdown with keyword as: currency_ID with value as:Pound
-INFO    2024-12-11 10:53:37,713 [main] base.BaseTest  - Clicked on field with a keyword as : processBtn_XPATH
-INFO    2024-12-11 10:53:37,895 [main] base.BaseTest  - Clicked on field with a keyword as : openAccountBtn_XPATH
-INFO    2024-12-11 10:53:38,106 [main] base.BaseTest  - Selected the dropdown with keyword as: customer_ID with value as:rahul1 arr1
-INFO    2024-12-11 10:53:38,276 [main] base.BaseTest  - Selected the dropdown with keyword as: currency_ID with value as:Dollar
-INFO    2024-12-11 10:53:38,419 [main] base.BaseTest  - Clicked on field with a keyword as : processBtn_XPATH
-INFO    2024-12-11 10:53:38,602 [main] base.BaseTest  - Clicked on field with a keyword as : openAccountBtn_XPATH
-INFO    2024-12-11 10:53:38,810 [main] base.BaseTest  - Selected the dropdown with keyword as: customer_ID with value as:selenium java
-INFO    2024-12-11 10:53:38,983 [main] base.BaseTest  - Selected the dropdown with keyword as: currency_ID with value as:Rupee
-INFO    2024-12-11 10:53:39,135 [main] base.BaseTest  - Clicked on field with a keyword as : processBtn_XPATH
-INFO    2024-12-11 10:53:39,549 [main] base.BaseTest  - Execution Stopped
+INFO    2024-12-14 09:06:31,470 [main] base.BaseTest  - Test Execution started
+INFO    2024-12-14 09:06:31,471 [main] base.BaseTest  - Config file loaded
+INFO    2024-12-14 09:06:31,471 [main] base.BaseTest  - OR properties file loaded
+INFO    2024-12-14 09:06:35,467 [main] base.BaseTest  - Edge browser is launched
+INFO    2024-12-14 09:06:35,708 [main] base.BaseTest  - Browser window maximized
+INFO    2024-12-14 09:06:38,615 [main] base.BaseTest  - Navigated to an url: https://www.carwale.com/

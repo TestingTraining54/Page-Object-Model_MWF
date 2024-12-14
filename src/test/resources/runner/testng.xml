@@ -8,26 +8,10 @@
 <listener class-name="extentlisteners.ExtentListeners"></listener>
 </listeners>
 
-  <test name="Bank Login">
+  <test name="Find New Cars Test">
     <classes>
      
-      <class name="testcases.HomeTest"/>
-       
-    </classes>
-  </test>
-  
-    <test name="Add Customer">
-    <classes>
-     
-      <class name="testcases.addCustomerTest"/>
-       
-    </classes>
-  </test>
-  
-  <test name="Add Account">
-    <classes>
-     
-      <class name="testcases.OpenAccount"/>
+      <class name="testcases.FindNewCarsTest"/>
        
     </classes>
   </test>

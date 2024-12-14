@@ -6,6 +6,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
+import base.BasePage;
+import pages.BMWCarsPage;
 import pages.FindNewCarsPage;
 import pages.HomePage;
 import pages.MarutiCarsPage;
@@ -21,14 +23,15 @@ public class FindNewCarsTest {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		driver.get("https://www.carwale.com/");
 		HomePage home = new HomePage(driver);
-		home.findNewCars();
+		FindNewCarsPage findNewCar = home.findNewCars();
+		BMWCarsPage bmw = findNewCar.goToBMW();
+		System.out.println(BasePage.carBase.getCarTitle());
+		 
 		
-		FindNewCarsPage findNewCar = new FindNewCarsPage(driver);
-		findNewCar.goToMaruti();
+		//System.out.println(home.findNewCars().goToAudi().getCarTitle());
 		
-		MarutiCarsPage maruti =  new MarutiCarsPage(driver);
-		System.out.println(maruti.getCarTitle());
 		
+		//Page Factory
 
 	}
 

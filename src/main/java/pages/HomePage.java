@@ -5,6 +5,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.FindBy;
 
 import base.BasePage;
 
@@ -15,18 +16,21 @@ public class HomePage extends BasePage {
 		// TODO Auto-generated constructor stub
 	}
 
-
+	@FindBy(xpath="//div[text()='NEW CARS']")
+	WebElement newCar;
 	
+	@FindBy(xpath="//div[text()='Find New Cars']")
+	WebElement findNewCar;
 	
-	
-	public void findNewCars() {
+	public FindNewCarsPage findNewCars() {
 		
-	WebElement newCar = driver.findElement(By.xpath("//div[text()='NEW CARS']"));
+	//WebElement newCar = driver.findElement(By.xpath("//div[text()='NEW CARS']"));
 	Actions act = new Actions(driver);
 	act.moveToElement(newCar).perform();
 	
-	WebElement findNewCar=driver.findElement(By.xpath("//div[text()='Find New Cars']"));
+	//WebElement findNewCar=driver.findElement(By.xpath("//div[text()='Find New Cars']"));
 	findNewCar.click();
+	return new FindNewCarsPage(driver);
 	
 	}
 	
