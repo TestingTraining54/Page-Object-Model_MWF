@@ -1,6 +1,6 @@
-INFO    2024-12-14 09:06:31,470 [main] base.BaseTest  - Test Execution started
-INFO    2024-12-14 09:06:31,471 [main] base.BaseTest  - Config file loaded
-INFO    2024-12-14 09:06:31,471 [main] base.BaseTest  - OR properties file loaded
-INFO    2024-12-14 09:06:35,467 [main] base.BaseTest  - Edge browser is launched
-INFO    2024-12-14 09:06:35,708 [main] base.BaseTest  - Browser window maximized
-INFO    2024-12-14 09:06:38,615 [main] base.BaseTest  - Navigated to an url: https://www.carwale.com/
+INFO    2024-12-16 09:30:55,441 [main] base.BaseTest  - Test Execution started
+INFO    2024-12-16 09:30:55,442 [main] base.BaseTest  - Config file loaded
+INFO    2024-12-16 09:30:55,442 [main] base.BaseTest  - OR properties file loaded
+INFO    2024-12-16 09:31:00,138 [main] base.BaseTest  - Edge browser is launched
+INFO    2024-12-16 09:31:00,289 [main] base.BaseTest  - Browser window maximized
+INFO    2024-12-16 09:31:03,102 [main] base.BaseTest  - Navigated to an url: https://www.carwale.com/

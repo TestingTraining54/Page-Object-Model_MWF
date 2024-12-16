@@ -16,7 +16,13 @@
     </classes>
   </test>
   
-  
+  <test name="Car Model and Price Test">
+    <classes>
+     
+      <class name="testcases.CarModelAndPriceTest"/>
+       
+    </classes>
+  </test>
   
   
 </suite> <!-- TestNG Suite1 -->

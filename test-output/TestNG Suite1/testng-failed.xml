@@ -14,4 +14,13 @@
       </class> <!-- testcases.FindNewCarsTest -->
     </classes>
   </test> <!-- Find New Cars Test(failed) -->
+  <test thread-count="5" name="Car Model and Price Test(failed)">
+    <classes>
+      <class name="testcases.CarModelAndPriceTest">
+        <methods>
+          <include name="getCarModelAndPriceTest" invocation-numbers="3"/>
+        </methods>
+      </class> <!-- testcases.CarModelAndPriceTest -->
+    </classes>
+  </test> <!-- Car Model and Price Test(failed) -->
 </suite> <!-- Failed suite [TestNG Suite1] -->

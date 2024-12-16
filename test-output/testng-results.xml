@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="3" failed="0" skipped="1">
+<testng-results ignored="0" total="8" passed="6" failed="0" skipped="2">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-14T09:06:17 IST" name="TestNG Suite1" finished-at="2024-12-14T09:06:40 IST" duration-ms="23270">
+  <suite started-at="2024-12-16T09:19:54 IST" name="TestNG Suite1" finished-at="2024-12-16T09:20:53 IST" duration-ms="58509">
     <groups>
     </groups>
-    <test started-at="2024-12-14T09:06:17 IST" name="Find New Cars Test" finished-at="2024-12-14T09:06:40 IST" duration-ms="23270">
+    <test started-at="2024-12-16T09:19:54 IST" name="Find New Cars Test" finished-at="2024-12-16T09:20:20 IST" duration-ms="25220">
       <class name="testcases.FindNewCarsTest">
-        <test-method signature="findNewCarTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.FindNewCarsTest@6a175569]" started-at="2024-12-14T09:06:17 IST" name="findNewCarTest" data-provider="data" finished-at="2024-12-14T09:06:22 IST" duration-ms="5119" status="PASS">
+        <test-method signature="findNewCarTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.FindNewCarsTest@11963225]" started-at="2024-12-16T09:19:55 IST" name="findNewCarTest" data-provider="data" finished-at="2024-12-16T09:20:01 IST" duration-ms="6219" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -33,7 +33,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findNewCarTest -->
-        <test-method signature="findNewCarTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.FindNewCarsTest@6a175569]" started-at="2024-12-14T09:06:22 IST" name="findNewCarTest" data-provider="data" finished-at="2024-12-14T09:06:31 IST" duration-ms="9090" status="PASS">
+        <test-method signature="findNewCarTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.FindNewCarsTest@11963225]" started-at="2024-12-16T09:20:01 IST" name="findNewCarTest" data-provider="data" finished-at="2024-12-16T09:20:10 IST" duration-ms="8766" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -59,7 +59,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findNewCarTest -->
-        <test-method signature="findNewCarTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.FindNewCarsTest@6a175569]" started-at="2024-12-14T09:06:31 IST" name="findNewCarTest" data-provider="data" finished-at="2024-12-14T09:06:40 IST" duration-ms="8947" status="PASS">
+        <test-method signature="findNewCarTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.FindNewCarsTest@11963225]" started-at="2024-12-16T09:20:10 IST" name="findNewCarTest" data-provider="data" finished-at="2024-12-16T09:20:20 IST" duration-ms="10047" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -85,7 +85,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findNewCarTest -->
-        <test-method signature="findNewCarTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.FindNewCarsTest@6a175569]" started-at="2024-12-14T09:06:40 IST" name="findNewCarTest" data-provider="data" finished-at="2024-12-14T09:06:40 IST" duration-ms="3" status="SKIP">
+        <test-method signature="findNewCarTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.FindNewCarsTest@11963225]" started-at="2024-12-16T09:20:20 IST" name="findNewCarTest" data-provider="data" finished-at="2024-12-16T09:20:20 IST" duration-ms="9" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -149,5 +149,129 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
         </test-method> <!-- findNewCarTest -->
       </class> <!-- testcases.FindNewCarsTest -->
     </test> <!-- Find New Cars Test -->
+    <test started-at="2024-12-16T09:20:21 IST" name="Car Model and Price Test" finished-at="2024-12-16T09:20:53 IST" duration-ms="32370">
+      <class name="testcases.CarModelAndPriceTest">
+        <test-method signature="getCarModelAndPriceTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.CarModelAndPriceTest@12365c88]" started-at="2024-12-16T09:20:21 IST" name="getCarModelAndPriceTest" data-provider="data" finished-at="2024-12-16T09:20:30 IST" duration-ms="8769" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[y]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tata]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCarModelAndPriceTest -->
+        <test-method signature="getCarModelAndPriceTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.CarModelAndPriceTest@12365c88]" started-at="2024-12-16T09:20:30 IST" name="getCarModelAndPriceTest" data-provider="data" finished-at="2024-12-16T09:20:41 IST" duration-ms="11059" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[y]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[toyota]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCarModelAndPriceTest -->
+        <test-method signature="getCarModelAndPriceTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.CarModelAndPriceTest@12365c88]" started-at="2024-12-16T09:20:41 IST" name="getCarModelAndPriceTest" data-provider="data" finished-at="2024-12-16T09:20:53 IST" duration-ms="12408" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[y]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[bmw]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCarModelAndPriceTest -->
+        <test-method signature="getCarModelAndPriceTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.CarModelAndPriceTest@12365c88]" started-at="2024-12-16T09:20:53 IST" name="getCarModelAndPriceTest" data-provider="data" finished-at="2024-12-16T09:20:53 IST" duration-ms="6" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[n]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[audi]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipped the testcase as runmode is n]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipped the testcase as runmode is n
+at testcases.CarModelAndPriceTest.getCarModelAndPriceTest(CarModelAndPriceTest.java:23)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCarModelAndPriceTest -->
+      </class> <!-- testcases.CarModelAndPriceTest -->
+    </test> <!-- Car Model and Price Test -->
   </suite> <!-- TestNG Suite1 -->
 </testng-results>
